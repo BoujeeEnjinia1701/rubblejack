@@ -115,3 +115,5 @@ TRL 4 when the portfolio phase allows: buy one cylinder and confirm the collar a
 ## 2026-10-03: photoreal renders
 
 Rendered with Blender Cycles on Amish's Mac from `cad/src/product_model.py`; captioned with `.kit/photo_caption.py`; `media/card.png` and `media/social-preview.png` made with `.kit/cards.py`. Views: hero, exploded, detail. image_qc passes and `render.py --check` has no FAIL.
+
+2026-10-03: hero render reframed so the product fills the frame (rubblejack).
