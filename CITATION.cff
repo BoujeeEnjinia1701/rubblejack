@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or build on this design, please cite it as below."
+type: software
+title: "RubbleJack"
+abstract: "Turns commodity construction hydraulics into an open spreading, lifting and cutting kit for crews without powered rescue tools."
+authors:
+  - given-names: Amish
+    family-names: Chadha
+    affiliation: Design Molecule
+    orcid: "https://orcid.org/0009-0000-8079-7141"
+repository-code: "https://github.com/BoujeeEnjinia1701/rubblejack"
+url: "https://designmolecule.com"
+license: CERN-OHL-S-2.0
+keywords:
+  - open-hardware
+  - search-and-rescue
+  - earthquake
+  - hydraulics
+  - volunteer-fire

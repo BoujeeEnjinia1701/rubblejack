@@ -1,0 +1,13 @@
+id,value,target,status
+R1,14.5 t at 700 bar (cylinder rated 15 t),10 t or more,Met on paper (proof load is TRL 4)
+R2,48.6 kN (closed) to 64.1 kN (open) at the tips at 700 bar,40 kN or more at the tips,Met on paper
+R3,262 mm tip opening at full stroke; tips 32 mm thick closed,250 mm or more,Met on paper
+R4,"16 mm bar needs about 105 kN (515 bar); cylinder gives 142 kN, ratio 1.36",Cut 16 mm reinforcing bar,Met on paper
+R5,"Pump relief 700 bar; cylinders, couplers, hoses and gauge adapter rated 700 bar; hoses 4 to 1 burst (2,800 bar); gauge reads to 1,000 bar",Every pressurised part at or above relief; hoses 4 to 1,Met by specification (ratings to confirm when parts are bought)
+R6,"Pump, gauge and hoses 15.9 kg; Spreader 24.8 kg; Cutter 22.0 kg; Lifting ram set 23.7 kg",No single load over 25 kg,"Met on paper (heaviest, the spreader, 0.2 kg under)"
+R7,"Pump, one hose and one tool: two coupler connections, no tools needed; estimated 1 to 2 min from the bags",Working within 3 min,Met on paper (timed drill is TRL 4)
+R8,"Each tool has its own cylinder; a change is one coupler off and one on, about 20 s (estimate)",Under 1 min,Met by design
+R9,"Pump, gauge, hoses, couplers, cylinders and saddle are catalogue parts in a class at least two makers offer",Standard parts from two suppliers,Met by specification
+R10,"Estimated USD 5,895 from the BOM","Value-engineering target USD 3,500","Over the value-engineering target by USD 2,395"
+R11,Lowest margin 1.60: jaw arm tail at the link slot,1.5 or more on yield at 700 bar for every made load-bearing part,Met on paper
+R12,Ram base plate 250 x 250 mm; sleeper bearing about 0.8 MPa on three hardwood sleepers; procedure: crib as the load rises,Never lift on bare rubble; base plate on cribbing,Met by design and procedure

@@ -1,0 +1,42 @@
+# Card metadata consumed by https://designmolecule.com
+name: RubbleJack
+slug: rubblejack
+repo: BoujeeEnjinia1701/rubblejack         # GitHub repository, shown on every drawing and render
+area: Situational field hardware
+trl: 3                   # Technology Readiness Level, see .kit/STANDARDS.md section 9
+trl_target: 3
+design_state: constructable   # concept or constructable, see .kit/STANDARDS.md section 18
+trl_evidence:
+  - docs/01-problem.md
+  - docs/02-concept.md
+  - docs/03-requirements.md
+  - docs/decisions/0001-trl2-review-decisions.md
+  - docs/decisions/0002-design-for-construction.md
+  - docs/04-calcs/01-sizing.md
+  - docs/04-calcs/sizing.py
+  - docs/04-calcs/results.csv
+  - cad/src/model.py
+  - cad/step/rubblejack-kit.step
+  - cad/step/rubblejack-spreader.step
+  - cad/step/rubblejack-cutter.step
+  - cad/step/rubblejack-ram.step
+  - cad/drawings/RBJ-DWG-001.svg
+  - cad/drawings/RBJ-DWG-001.pdf
+  - bom/bom.csv
+  - docs/05-build-plan.md
+  - docs/06-design-decisions.md
+  - docs/05-build-plan/overview.png
+  - cad/src/build_plan_media.py
+  - cad/src/product_model.py
+shortlisted: false
+pitch: >-
+  Turns commodity construction hydraulics into an open spreading, lifting and cutting kit for crews without powered rescue tools.
+problem: >-
+  After a building collapse, most trapped people are reached by neighbours and local crews long before specialist teams arrive, but those crews usually have no way to lift, spread or cut concrete. Powered rescue tools cost more than many volunteer departments can pay.
+budget_usd: 3500
+difficulty: 4  # 1 easiest, 5 hardest
+hero_image: media/hero.png
+licenses:
+  hardware: CERN-OHL-S-2.0
+  software: MIT
+tags: [open-hardware, search-and-rescue, earthquake, hydraulics, volunteer-fire]
